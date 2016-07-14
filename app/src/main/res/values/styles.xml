@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="CV_NORMAL">
+        <item name="cardBackgroundColor">@color/colorAccent</item>
+        <item name="cardCornerRadius">4dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="contentPadding">5dp</item>
+
+        <item name="cardElevation">@dimen/cardElevationNormal</item>
+    </style>
+
+    <style name="CV_SELECTED">
+        <item name="cardCornerRadius">4dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="contentPadding">5dp</item>
+        <item name="cardBackgroundColor">@color/colorAccent</item>
+
+
+        <item name="cardElevation">@dimen/cardElevationSelected</item>
+    </style>
+</resources>
